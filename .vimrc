@@ -10,7 +10,7 @@ set cursorline
 
 " set background=dark
 
-color monokai
+color monokai-soda
 
 let g:javascript_plugin_flow = 1
 
