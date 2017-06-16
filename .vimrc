@@ -8,9 +8,14 @@ set expandtab
 
 set cursorline
 
+command! W write
+command! Q quit
+
 " set background=dark
 
 color monokai-soda
+
+set clipboard=unnamed
 
 let g:javascript_plugin_flow = 1
 
@@ -18,8 +23,8 @@ command! NT NERDTree
 
 " This is so nice, you have no idea!!!
 set mouse=a
-map <ScrollWheelUp> <C-Y>
-map <ScrollWheelDown> <C-E>
+map <ScrollWheelUp> <C-Y><C-Y><C-y>
+map <ScrollWheelDown> <C-E><C-E><C-E>
 
 " call plug#begin('~/.vim/plugged')
 
@@ -63,3 +68,5 @@ filetype plugin indent on
 let g:jsx_ext_required = 0
 
 autocmd BufWinEnter * NERDTreeMirror
+
+let NERDTreeIgnore=['node_modules', '.DS_Store']

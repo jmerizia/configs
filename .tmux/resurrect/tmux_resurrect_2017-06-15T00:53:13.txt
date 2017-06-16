@@ -1,0 +1,25 @@
+pane	codemirror	1	:vim	0	:-	1	:/Users/Jacob/mystuff/2pro/codemirror	1	vim	:vim
+pane	codemirror	2	:zsh	1	:*	1	:/Users/Jacob/mystuff/2pro/codemirror	0	zsh	:
+pane	codemirror	2	:zsh	1	:*	2	:/Users/Jacob	1	zsh	:
+pane	nectar	1	:vim	1	:*	1	:/Users/Jacob/mystuff/2pro/_nectar	1	vim	:vim
+pane	remote	1	:zsh	1	:*	1	:/Users/Jacob	0	zsh	:
+pane	remote	1	:zsh	1	:*	2	:/Users/Jacob	1	zsh	:
+pane	snake	1	:vim	1	:*	1	:/Users/Jacob/mystuff/2pro/snake	1	vim	:vim
+pane	snake	2	:zsh	0	:#-	1	:/Users/Jacob/mystuff/2pro/snake	0	Python	:python -m SimpleHTTPServer 8000
+pane	snake	2	:zsh	0	:#-	2	:/Users/Jacob/mystuff/2pro/snake	1	zsh	:
+pane	sync	1	:editor	1	:*	1	:/Users/Jacob/mystuff/2pro/sync/front	1	vim	:vim
+pane	sync	2	:workers	0	:-	1	:/Users/Jacob/mystuff/2pro/sync/front	0	zsh	:
+pane	sync	2	:workers	0	:-	2	:/Users/Jacob/mystuff/2pro/sync/front	0	zsh	:
+pane	sync	2	:workers	0	:-	3	:/Users/Jacob/mystuff/2pro/sync/front	0	zsh	:
+pane	sync	2	:workers	0	:-	4	:/Users/Jacob/mystuff/2pro/sync/back	1	zsh	:
+pane	sync	3	:vim	0	:	1	:/Users/Jacob/mystuff/2pro/sync/back	1	vim	:vim
+window	codemirror	1	0	:-	c83e,178x46,0,0,1
+window	codemirror	2	1	:*	b754,178x46,0,0{89x46,0,0,2,88x46,90,0,3}
+window	nectar	1	1	:*	c841,178x46,0,0,4
+window	remote	1	1	:*	3762,178x46,0,0{89x46,0,0,5,88x46,90,0,6}
+window	snake	1	1	:*	6452,178x46,0,0,13
+window	snake	2	0	:#-	0c38,178x46,0,0{89x46,0,0,14,88x46,90,0,15}
+window	sync	1	1	:*	c844,178x46,0,0,7
+window	sync	2	0	:-	9b12,178x46,0,0[179x16,0,0{107x16,0,0,8,71x16,108,0,9},179x29,0,17{107x29,0,17,10,71x29,108,17,11}]
+window	sync	3	0	:	6451,178x46,0,0,12
+state	snake	codemirror

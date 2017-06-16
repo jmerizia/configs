@@ -1,0 +1,8 @@
+pane	sync	1	:editor	0	:-	1	:/Users/Jacob/mystuff/2pro/sync/front	1	vim	:vim
+pane	sync	2	:workers	1	:*	1	:/Users/Jacob/mystuff/2pro/sync/front	0	node	:npm   
+pane	sync	2	:workers	1	:*	2	:/Users/Jacob/mystuff/2pro/sync/front	0	zsh	:
+pane	sync	2	:workers	1	:*	3	:/Users/Jacob/mystuff/2pro/sync/front	1	zsh	:
+pane	sync	2	:workers	1	:*	4	:/Users/Jacob/mystuff/2pro/sync/back	0	node	:node app
+window	sync	1	0	:-	b63d,178x51,0,0,0
+window	sync	2	1	:*	5f7a,177x51,0,0[178x25,0,0{88x25,0,0,1,89x25,89,0,2},178x25,0,26{88x25,0,26,3,89x25,89,26,4}]
+state	sync	

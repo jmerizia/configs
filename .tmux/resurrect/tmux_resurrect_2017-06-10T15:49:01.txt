@@ -1,0 +1,13 @@
+pane	codemirror	1	:vim	0	:-	1	:/Users/Jacob/mystuff/2pro/codemirror	1	vim	:vim
+pane	codemirror	2	:zsh	1	:*	1	:/Users/Jacob/mystuff/2pro/codemirror	1	zsh	:
+pane	codemirror	2	:zsh	1	:*	2	:/Users/Jacob	0	zsh	:
+pane	sync	1	:editor	1	:*	1	:/Users/Jacob/mystuff/2pro/sync/front	1	vim	:vim
+pane	sync	2	:workers	0	:-	1	:/Users/Jacob/mystuff/2pro/sync/front	1	zsh	:
+pane	sync	2	:workers	0	:-	2	:/Users/Jacob/mystuff/2pro/sync/front	0	node	:node /usr/local/bin/electron .
+pane	sync	2	:workers	0	:-	3	:/Users/Jacob/mystuff/2pro/sync/front	0	node	:npm   
+pane	sync	2	:workers	0	:-	4	:/Users/Jacob/mystuff/2pro/sync/back	0	node	:node app
+window	codemirror	1	0	:-	c843,178x46,0,0,6
+window	codemirror	2	1	:*	376b,178x46,0,0{89x46,0,0,7,88x46,90,0,8}
+window	sync	1	1	:*	c83e,178x46,0,0,1
+window	sync	2	0	:-	2d43,178x46,0,0[179x16,0,0{107x16,0,0,2,71x16,108,0,3},179x29,0,17{107x29,0,17,4,71x29,108,17,5}]
+state	sync	
